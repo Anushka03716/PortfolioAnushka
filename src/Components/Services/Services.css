@@ -107,5 +107,16 @@
     .service_container{
         grid-template-columns: 1fr 1fr;
         gap: 30px;
-    }
+    } 
 }
+.service-link-wrapper {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    }
+
+.service-link-wrapper:hover .service-format {
+    transform: translateY(-6px);
+    transition: 0.3s ease;
+    cursor: pointer;
+    }
