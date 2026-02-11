@@ -7,14 +7,14 @@ const Footer = () => {
   return (
     <div className='footer'>
 
-      {/* ===== TOP SECTION ===== */}
+      {/*TOP SECTION*/}
       <div className='footer-top'>
         <div className='footer-top-left'>
           <img src={footer_logo} alt="Footer Logo" />
           <p>I am a developer</p>
         </div>
 
-        {/* ✅ NETLIFY FORM START */}
+        {/* NETLIFY FORM START */}
         <form
           name="contact"
           method="POST"
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
 
           <button type="submit" className='footer-subscribe'>
-            Subscribe
+            Send
           </button>
         </form>
         {/* NETLIFY FORM END */}
